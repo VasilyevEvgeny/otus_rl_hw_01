@@ -1,0 +1,8 @@
+services:
+  rl:
+    build: .
+    container_name: otus_rl_hw_01
+    volumes:
+      - ./project:/workspace/otus_rl_hw_01
+    stdin_open: true
+    tty: true

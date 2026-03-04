@@ -1,0 +1,15 @@
+[project]
+name = "otus-rl-hw-01"
+version = "0.1.0"
+description = "OTUS Reinforcement Learning – Homework 01"
+requires-python = ">=3.11"
+dependencies = [
+    "gymnasium[classic-control]>=1.0",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "torch",
+]
+
+[tool.uv]
+python-preference = "managed"

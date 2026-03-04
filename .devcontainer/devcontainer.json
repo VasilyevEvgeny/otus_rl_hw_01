@@ -1,0 +1,6 @@
+{
+  "name": "otus_rl_hw_01",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "rl",
+  "workspaceFolder": "/workspace/otus_rl_hw_01"
+}
