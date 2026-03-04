@@ -3,3 +3,21 @@ __pycache__/
 *.egg-info/
 dist/
 .venv/
+
+# Hidden / cache dirs
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+.env
+.idea/
+.vscode/
+.cursor/
+.cursor-server/
+project/.cursor-server/
+.ssh/
+.DS_Store
+*.egg
