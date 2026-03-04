@@ -17,7 +17,10 @@ WORKDIR /workspace/otus_rl_hw_01
 ENV HOME=/workspace/otus_rl_hw_01
 
 COPY project/ .
+COPY entrypoint.sh /entrypoint.sh
+RUN  chmod +x /entrypoint.sh
 
 RUN uv sync
 
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["sleep", "infinity"]
